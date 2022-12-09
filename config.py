@@ -6,9 +6,9 @@ API_ID = os.environ.get("API_ID", "8754146")
 
 API_HASH = os.environ.get("API_HASH", "8b56a6989f6d04f6f4fe78133ade02fd")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5585818067:AAFXq9KgFWe9aluu68fpj-nkdvz8qA8Mn0c") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "5780368894:AAEpRd7rnhQn3Cxco9qaM2aB9QruUPgCdh0") 
 
-FORCE_SUB = os.environ.get("FORCE_SUB", None) 
+FORCE_SUB = os.environ.get("FORCE_SUB", "-1001708226012") 
 
 DB_NAME = os.environ.get("DB_NAME","Skmedia")     
 
