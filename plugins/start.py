@@ -34,10 +34,7 @@ from config import START_PIC, FLOOD, ADMIN
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
     buttons = [[ InlineKeyboardButton(text="🤖 Join Updates channel", url=client.invitelink) ]]
-    text ='''Hey, You Have To Join @Rapid_Bots Channel To Get Access To This Bot.😉
-
-Please Join👇 And Come Back Here...
-👉 Link: https://t.me/Rapid_Bots''',
+    text ="Hey, You Have To Join @Rapid_Bots Channel To Get Access To This Bot.😉"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
            
 @Client.on_message(filters.private & filters.command(["start"]))
